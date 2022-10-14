@@ -1,0 +1,69 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f2f2f2;
+ }
+
+ body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 120px;
+ }
+
+.contenedor {
+   max-width: 90%;
+   width: 400px;
+   margin: 80px auto;
+}
+
+.formulario input[type="tex"] {
+   padding: 20px;
+   border: none;
+   background: #ffff;
+   width: 100%;
+   border-radius: 5px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   font-size: 20px;
+   margin-bottom: 20px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    background: rgb(251, 249, 249);
+    color: rgb(9, 8, 8);
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: #f2f2f2;
+}
+
+.formulario .btn {
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: rgb(244, 141, 141);
+    color: rgb(8, 8, 8);
+    cursor: pointer;
+    padding: 0;
+    font-size: 30px;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contenedorQR {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.footer__container {
+    text-align: center;
+    font-size: x-large;
+    padding: 20px;
+}

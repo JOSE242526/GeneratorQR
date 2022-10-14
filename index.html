@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator Qr</title>
+    <link rel="stylesheet" href="/Style/style.css">
+</head>
+<body>
+    <div class="contenedor">
+
+        <form action="" id="formulario" class="formulario">
+            <input class="input" type="text" id="link" placeholder="Lave your link here">
+            <div>
+            <button class="btn">Generate QR</button>
+            </div>
+        </form>
+
+        <div id="contenedorQR" class="contenedorQR"></div>
+    </div>
+</body>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"
+
+    ></script>
+<script defer src="/generatorQr.js"></script>
+<footer class="footer">
+    <div class="footer__container container">
+      <p class="footer__copy">
+        <span class="copy--size">Made with ❤ Kelvin Jose Peralta</span> &copy; 2022. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</html>
